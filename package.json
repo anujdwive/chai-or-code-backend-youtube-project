@@ -2,10 +2,17 @@
   "name": "cha_or_code_backend_youtube_project",
   "version": "1.0.0",
   "description": "This is backend part of youtube project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "author": "Anuj Dwivedi",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
 }
